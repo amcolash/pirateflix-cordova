@@ -18,6 +18,7 @@
     <author email="amclash@gmail.com" href="https://amcolash.com">
         Andrew McOlash
     </author>
+    <icon src="res/icon.png" />
     <content src="index.html" />
     <access origin="*" />
     <allow-navigation href="https://home.amcolash.com:3001/*" />
