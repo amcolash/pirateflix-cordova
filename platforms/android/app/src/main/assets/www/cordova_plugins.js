@@ -23,11 +23,20 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "navigator.splashscreen"
       ]
+    },
+    {
+      "id": "cordova-plugin-cache-clear.CacheClear",
+      "file": "plugins/cordova-plugin-cache-clear/www/CacheClear.js",
+      "pluginId": "cordova-plugin-cache-clear",
+      "clobbers": [
+        "CacheClear"
+      ]
     }
   ];
   module.exports.metadata = {
     "cordova-plugin-dialogs": "2.0.2",
     "cordova-plugin-whitelist": "1.3.4",
-    "cordova-plugin-splashscreen": "5.0.3"
+    "cordova-plugin-splashscreen": "5.0.3",
+    "cordova-plugin-cache-clear": "1.3.7"
   };
 });

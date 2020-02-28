@@ -11,11 +11,14 @@
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="CacheClear">
+        <param name="android-package" value="com.anrip.cordova.CacheClear" />
+    </feature>
     <name>PirateFlix</name>
     <description>
         A react app, an Express server and a torrent client walk into a container...
     </description>
-    <author email="amclash@gmail.com" href="https://amcolash.com">
+    <author email="amcolash@gmail.com" href="https://amcolash.com">
         Andrew McOlash
     </author>
     <icon src="res/icon.png" />
