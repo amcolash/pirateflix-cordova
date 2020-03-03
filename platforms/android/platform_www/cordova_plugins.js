@@ -31,12 +31,21 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "CacheClear"
       ]
+    },
+    {
+      "id": "cordova-plugin-appinfo.AppInfo",
+      "file": "plugins/cordova-plugin-appinfo/www/appinfo.js",
+      "pluginId": "cordova-plugin-appinfo",
+      "merges": [
+        "navigator.appInfo"
+      ]
     }
   ];
   module.exports.metadata = {
     "cordova-plugin-dialogs": "2.0.2",
     "cordova-plugin-whitelist": "1.3.4",
     "cordova-plugin-splashscreen": "5.0.3",
-    "cordova-plugin-cache-clear": "1.3.7"
+    "cordova-plugin-cache-clear": "1.3.7",
+    "cordova-plugin-appinfo": "2.1.2"
   };
 });
