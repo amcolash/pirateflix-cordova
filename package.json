@@ -23,10 +23,10 @@
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {},
+      "cordova-plugin-cache-clear": {},
       "cordova-plugin-dialogs": {},
       "cordova-plugin-splashscreen": {},
-      "cordova-plugin-cache-clear": {}
+      "cordova-plugin-whitelist": {}
     },
     "platforms": [
       "android"
