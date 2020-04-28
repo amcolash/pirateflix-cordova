@@ -17,6 +17,9 @@
     <feature name="AppInfo">
         <param name="android-package" value="org.scriptotek.appinfo.AppInfo" />
     </feature>
+    <feature name="CDVIonicKeyboard">
+        <param name="android-package" onload="true" value="io.ionic.keyboard.CDVIonicKeyboard" />
+    </feature>
     <name>PirateFlix</name>
     <description>
         A react app, an Express server and a torrent client walk into a container...

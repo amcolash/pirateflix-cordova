@@ -39,6 +39,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "merges": [
         "navigator.appInfo"
       ]
+    },
+    {
+      "id": "cordova-plugin-ionic-keyboard.keyboard",
+      "file": "plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js",
+      "pluginId": "cordova-plugin-ionic-keyboard",
+      "clobbers": [
+        "window.Keyboard"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -46,6 +54,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-whitelist": "1.3.4",
     "cordova-plugin-splashscreen": "5.0.3",
     "cordova-plugin-cache-clear": "1.3.7",
-    "cordova-plugin-appinfo": "2.1.2"
+    "cordova-plugin-appinfo": "2.1.2",
+    "cordova-plugin-ionic-keyboard": "2.2.0"
   };
 });
