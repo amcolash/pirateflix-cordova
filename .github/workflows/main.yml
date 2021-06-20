@@ -19,3 +19,7 @@ jobs:
             cordova platform add android && \
             cordova build --no-telemetry && \
             cp "$(find . -name '*.apk')" .
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Debug APK
+          path: app-debug.apk
