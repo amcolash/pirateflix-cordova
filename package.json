@@ -2,9 +2,13 @@
   "name": "com.amcolash.pirateflix",
   "displayName": "PirateFlix",
   "version": "1.0.0",
+  "production": true,
   "description": "A react app, an Express server and a torrent client walk into a container...",
   "main": "index.js",
   "scripts": {
+    "build": "cordova build",
+    "clean": "rm -rf platforms && cordova platforms add android",
+    "deploy": "cordova deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,15 +16,13 @@
   ],
   "author": "Andrew McOlash",
   "license": "Apache-2.0",
-  "dependencies": {
-    "cordova-android": "^8.1.0",
+  "devDependencies": {
+    "cordova-android": "^9.1.0",
     "cordova-plugin-appinfo": "^2.1.2",
     "cordova-plugin-cache-clear": "^1.3.8",
     "cordova-plugin-dialogs": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "2.2.0",
-    "cordova-plugin-splashscreen": "^5.0.3"
-  },
-  "devDependencies": {
+    "cordova-plugin-splashscreen": "^6.0.0",
     "cordova-plugin-whitelist": "^1.3.4"
   },
   "cordova": {

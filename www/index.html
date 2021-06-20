@@ -33,9 +33,9 @@
       document.addEventListener(
         'deviceready',
         () => {
-          const url = 'https://home.amcolash.com:9000';
-          // const url = 'https://home.amcolash.com:3001';
-          window.location.replace(url);
+          const prodUrl = 'https://home.amcolash.com:9000';
+          const devUrl = 'https://home.amcolash.com:3001';
+          window.location.replace(prodUrl);
         },
         false
       );
