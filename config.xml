@@ -3,16 +3,16 @@
     <name>PirateFlix</name>
     <description>
         A react app, an Express server and a torrent client walk into a container...
-    </description>
+</description>
     <author email="amcolash@gmail.com" href="https://amcolash.com">
         Andrew McOlash
-    </author>
+</author>
     <icon src="res/android/icon.png" />
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-navigation href="https://home.amcolash.com:3001/*" />
-    <allow-navigation href="https://home.amcolash.com:9000/*" />
+    <allow-navigation href="https://home.amcolash.com:9090/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -33,8 +33,8 @@
             <activity android:banner="@drawable/banner" />
         </edit-config>
 
-        <splash src="res/android/splash-land.png" density="land-xhdpi"/>
+        <splash src="res/android/splash-land.png" density="land-xhdpi" />
         <preference name="SplashShowOnlyFirstTime" value="false" />
-        <preference name="ShowSplashScreenSpinner" value="false"/>
+        <preference name="ShowSplashScreenSpinner" value="false" />
     </platform>
 </widget>
