@@ -8,7 +8,7 @@
   "scripts": {
     "build": "cordova build",
     "clean": "rm -rf platforms && cordova platforms add android",
-    "deploy": "cordova deploy",
+    "deploy": "cordova run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

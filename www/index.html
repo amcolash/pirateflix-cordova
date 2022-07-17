@@ -28,6 +28,7 @@
     </style>
   </head>
   <body>
+    <h3 style="color: white">Loading...</h3>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript">
       document.addEventListener(
@@ -35,6 +36,8 @@
         () => {
           const prodUrl = 'https://home.amcolash.com:9090';
           const devUrl = 'https://home.amcolash.com:3001';
+          const localUrl = 'https://192.168.1.137:3000';
+
           window.location.replace(prodUrl);
         },
         false

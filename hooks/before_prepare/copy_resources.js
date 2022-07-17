@@ -26,12 +26,15 @@ module.exports = function (context) {
     console.log(`Copied ${f.src} --> ${f.dest}`);
   });
 
-  const indexPath = 'www/index.html';
-  const index = fs
-    .readFileSync(indexPath)
-    .toString()
-    .replace(/\(.*Url\)/, `(${BUILD}Url)`);
-  fs.writeFileSync(indexPath, index);
+  const replaceURL = true; // Set false when using local url
+  if (replaceURL) {
+    const indexPath = 'www/index.html';
+    const index = fs
+      .readFileSync(indexPath)
+      .toString()
+      .replace(/\(.*Url\)/, `(${BUILD}Url)`);
+    fs.writeFileSync(indexPath, index);
+  }
 
   const configPath = 'config.xml';
   const config = fs
